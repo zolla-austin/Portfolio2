@@ -1,0 +1,37 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        display: ['"Cabinet Grotesk"', 'sans-serif'],
+        body: ['"Satoshi"', 'sans-serif'],
+      },
+      colors: {
+        bg: '#080810',
+        surface: '#0f0f1a',
+        card: '#13131f',
+        border: 'rgba(255,255,255,0.07)',
+        accent: '#6c63ff',
+        teal: '#2dd4bf',
+        rose: '#fb7185',
+        muted: '#8585a8',
+      },
+      animation: {
+        'float': 'float 6s ease-in-out infinite',
+        'glow-pulse': 'glowPulse 3s ease-in-out infinite',
+      },
+      keyframes: {
+        float: {
+          '0%,100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-12px)' },
+        },
+        glowPulse: {
+          '0%,100%': { opacity: '0.6' },
+          '50%': { opacity: '1' },
+        },
+      },
+    },
+  },
+  plugins: [],
+}
