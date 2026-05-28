@@ -12,7 +12,7 @@ const projects = [
     bgClass: 'bg-gradient-to-br from-[#0d0a2e] via-[#120e45] to-[#0a1a3e]',
     icon: '🛒',
     badge: 'E-Commerce',
-    github: '#',
+    github: 'https://github.com/zolla-austin',
     demo: '#',
   },
   {
@@ -23,8 +23,8 @@ const projects = [
     bgClass: 'bg-gradient-to-br from-[#0a1628] via-[#0d1f3d] to-[#061224]',
     icon: '🎨',
     badge: 'Portfolio',
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/zolla-austin',
+    demo: 'https://emperor001.netlify.app/',
   },
   {
     title: 'AnalyticsPro — SaaS Dashboard',
@@ -34,7 +34,7 @@ const projects = [
     bgClass: 'bg-gradient-to-br from-[#0a1f0a] via-[#0d2e14] to-[#071a0d]',
     icon: '📊',
     badge: 'SaaS Dashboard',
-    github: '#',
+    github: 'https://github.com/zolla-austin',
     demo: '#',
   },
   {
@@ -45,8 +45,8 @@ const projects = [
     bgClass: 'bg-gradient-to-br from-[#1a0a1f] via-[#2a0f35] to-[#150a20]',
     icon: '✦',
     badge: 'Landing Page',
-    github: '#',
-    demo: '#',
+    github: 'https://github.com/zolla-austin',
+    demo: 'https://naija-bite.netlify.app/',
   },
 ]
 
