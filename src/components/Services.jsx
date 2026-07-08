@@ -47,16 +47,12 @@ export default function Services() {
 
   return (
     <section id="services" className="py-24 lg:py-32 bg-surface relative overflow-hidden">
-      {/* Decorative line pattern */}
       <div
-        className="absolute inset-0 opacity-20 pointer-events-none"
-        style={{
-          backgroundImage: 'radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px)',
-          backgroundSize: '28px 28px',
-        }}
+        className="absolute inset-0 opacity-20 pointer-events-none theme-dots"
+        style={{ backgroundSize: '28px 28px' }}
       />
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-10 relative z-10" ref={ref}>
         <motion.div
@@ -65,11 +61,9 @@ export default function Services() {
           transition={{ duration: 0.6 }}
           className="text-center mb-14"
         >
-          <span className="text-xs font-bold tracking-[0.2em] uppercase text-accent">// Services</span>
-          <h2 className="font-display font-black text-4xl md:text-5xl xl:text-6xl tracking-tighter mt-3 leading-none">
-            What I offer
-          </h2>
-          <p className="text-muted max-w-xl mx-auto mt-5 text-base leading-relaxed font-light">
+          <span className="section-label">// Services</span>
+          <h2 className="heading-section mt-3">What I offer</h2>
+          <p className="text-body max-w-xl mx-auto mt-5">
             Everything your digital product needs — from first line of code to post-launch polish.
           </p>
         </motion.div>
